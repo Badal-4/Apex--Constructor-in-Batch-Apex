@@ -1,0 +1,3 @@
+Set<ID> oppID = new Set<ID>{'0063o000014nvhSAAQ'};
+BatchToPopulateQualifiedDateField bObj = new BatchToPopulateQualifiedDateField(oppID,'');
+database.executeBatch(bObj,1);
